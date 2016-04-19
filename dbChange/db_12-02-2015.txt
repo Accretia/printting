@@ -1,0 +1,17 @@
+CREATE TABLE `roles` (
+  `roles_id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `active` BIT(1) NOT NULL,
+  PRIMARY KEY (`roles_id`));
+  
+CREATE TABLE `printting`.`user` (
+  `user_id` INT NOT NULL AUTO_INCREMENT,
+  `user_name` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  `name` VARCHAR(45) NULL,
+  `surname` VARCHAR(45) NULL,
+  `active` BIT(1) NULL,
+  PRIMARY KEY (`user_id`));
+  
+ALTER TABLE `printting`.`user` 
+ADD COLUMN `roles_id` INT NOT NULL AFTER `active`;

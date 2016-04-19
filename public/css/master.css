@@ -1,0 +1,69 @@
+
+.table-wrapper {
+	border-bottom: 1px solid #bbb;
+	clear: both;
+	margin: 1%;
+	width: 98%;
+	}
+#tableList{
+      background-color: #168D6F;
+}
+
+.filter-menu {
+	background: #f1f1f1;
+	border: 1px solid #e1e1e1;
+	clear: both;
+	float: left;
+	margin: 0 1% 20px;
+	font-size:smaller;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	 -khtml-border-radius: 5px;
+	   -moz-border-radius: 5px;
+			border-radius: 5px;
+	}
+.filter-menu label {
+	display: block;
+	font-weight: bold;
+	margin-left: 3px;
+	}
+.filter-menu li {
+	float: left;
+	margin: 0 10px;
+	list-style:none;
+	}
+.filter-search { padding: 8px 0 0 0; }
+
+
+
+.page-files {
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	}
+.page-files li {
+	float: left;
+	margin: 0 10px;
+	list-style:none;
+	}
+.page-files a {
+	background-image: url( ../img/icons/file-new.png );
+	background-position: 8px 5px;
+	background-repeat: no-repeat;
+	color: #858585;
+	display: block;
+	padding: 5px 15px 5px 45px;
+	line-height: 35px;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	 -khtml-border-radius: 5px;
+	   -moz-border-radius: 5px;
+			border-radius: 5px;
+	-webkit-transition: all 0.25s ease-in-out;
+	   -moz-transition: all 0.25s ease-in-out;
+		 -o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+	}
+.page-files a:hover, .page-files a.active { background-color: rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.65); }
+.page-files .file-new { background-image: url( ../img/icons/file-new.png ); }
+
